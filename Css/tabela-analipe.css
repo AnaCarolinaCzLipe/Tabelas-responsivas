@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0; /* Adicione esta linha para remover o espaço padrão do navegador */
-    padding: 10px;
+    padding: 0;
     text-align: center;
     background-color: rgb(255, 221, 177);
 }
@@ -12,10 +12,11 @@ p
 table
 {
     border-collapse: collapse;
-    border-radius: 100px;
-    width: 100%;
+    width: 98%;
     border: 2px solid black;
-    padding: 30px;
+
+    margin: 10px;
+
 }
 
 tr
@@ -34,11 +35,11 @@ tbody:nth-child(even)
 }
 
 tbody tr:nth-child(odd) {
-    background-color: rgb(255, 217, 146); /* Cor para linhas 1, 3, 5... */
+    background-color: rgb(255, 217, 146); 
 }
 tbody tr:nth-child(even) {
     background-color: white;
-     /* Cor para linhas 2, 4, 6... */
+     
 }
 
 .numeros
@@ -56,13 +57,14 @@ caption
     text-align: center;
 }
 footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: white;
+    width: 100%;
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 50px;
     padding: 40px 0; /* Cria a altura e centraliza o texto na vertical */
     
-    /* Compensa exatamente os 10px de padding do body para colar nas bordas */
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px; 
 }
