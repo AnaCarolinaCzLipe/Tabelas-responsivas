@@ -40,4 +40,4 @@ O projeto foi organizado separando as responsabilidades em pastas para manter o 
  ┃ ┗ 📜 tabela-analipe.js
  ┣ 📂 imagem
  ┃ ┗ 🖼️ brilhos.svg
- ┗ 📜 index.html
+ ┗ 📜 tabela-analipe.html
